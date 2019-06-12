@@ -52,9 +52,18 @@
 .store_row1{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.store_row1 h2{
+    letter-spacing: 5px;
+}
+.store_row1 p{
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 4px;
 }
 
 .store_box{
@@ -99,7 +108,7 @@
 
 .homeSearch {
     text-align: center;
-    padding: 100px 0px;
+    padding-bottom: 50px;
     width: 100%;
     display: block;
     letter-spacing: 4px;
@@ -107,6 +116,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.homeSearch h2{
+    width: 60%;
 }
 .homeSearch .label-text1 {
     cursor: text;
@@ -194,6 +206,14 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.description_right p{
+    width: 70%;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
 }
 
 

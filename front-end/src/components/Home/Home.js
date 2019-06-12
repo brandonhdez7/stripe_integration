@@ -62,7 +62,9 @@ class Home extends Component{
                     <Store/>
                     
                     <form>
+                        <img src="/Images/coffeehouse.png" />
                         <label className="homeSearch">
+                            <h2>Find your next favorite coffee shop nearest to you or any location in the world</h2>
                             <input placeholder="Destination" type="text" required />
                             <img className="label-text1" src="./Images/55369.png" alt="" />
                         </label>

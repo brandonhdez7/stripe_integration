@@ -11,10 +11,17 @@ class Store extends Component{
         return(
             <div className="store_description">
                 <div className="store_row1">
+                <h2>Lets Take A Coffee Break</h2>
+                <p>There is a wide acceptance that manual brewing 
+                    methods allow for better quality control and a 
+                    superior coffee experience. For many, it’s more 
+                    fun and fascinating to have a hands-on approach 
+                    with their brewing process rather than hitting a 
+                    ‘brew’ button on a machine.</p>
                 <Wrapper>
                     <Slider
                         centerMode={true}
-                        centerPadding={'30px'}
+                        centerPadding={'40px'}
                         arrows={true}
                         speed={500}
                         slidesToShow={3}

@@ -11,8 +11,6 @@ import Description from './Description';
 
 const AppWrapper = styled.div`
     width: 100%;
-    display:flex;
-    justify-content: center;
 `
 
 class Home extends Component{
@@ -60,7 +58,9 @@ class Home extends Component{
                             <img src="./Images/barista.png" />
                         </div>
                     </div>
+
                     <Store/>
+                    
                     <form>
                         <label className="homeSearch">
                             <input placeholder="Destination" type="text" required />

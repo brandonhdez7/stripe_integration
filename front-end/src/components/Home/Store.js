@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick'
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 
 const Wrapper = styled.div`
     width: 70%;
@@ -33,37 +34,42 @@ class Store extends Component{
                     >
                         <div> 
                             <div className="store_box">
-                                <img src="./Images/chemex.png" />
+                                <img src="./Images/chemex2.png" />
                                 <p>Coffee Maker</p>
                                 <p>Chemex</p>
+                               <Link className="method_link" to="/Chemex">Brew Chemex</Link>
                             </div>
                         </div>
                         <div>
                             <div className="store_box">
-                                <img src="./Images/frenchpress.png" />
+                                <img src="./Images/frenchpress2.png" />
                                 <p>Coffee Maker</p>
                                 <p>FrenchPress</p>
+                                <Link className="method_link" to="/Chemex">Brew FrenchPress</Link>
                             </div>
                         </div>
                         <div >
                             <div className="store_box">
-                                <img src="./Images/coldbrewing.png" />
+                                <img src="./Images/turkish.png" />
                                 <p>Coffee Maker</p>
-                                <p>Cold Brewing</p>
+                                <p>Turkish Coffee</p>
+                                <Link className="method_link" to="/Chemex">Brew Turkish Coffee</Link>
                             </div>
                         </div>
                         <div>
                             <div className="store_box">
-                                <img src="./Images/v60.png" />
+                                <img src="./Images/v602.png" />
                                 <p>Coffee Maker</p>
                                 <p>v60</p>
+                                <Link className="method_link" to="/Chemex">Brew v60</Link>
                             </div>
                         </div>
                         <div>
                             <div className="store_box">
-                                <img src="./Images/espresso.png" />
+                                <img src="./Images/espresso2.png" />
                                 <p>Coffee Maker</p>
                                 <p>Espresso</p>
+                                <Link className="method_link" to="/Chemex">Brew Espresso</Link>
                             </div>
                         </div>
                     </Slider>

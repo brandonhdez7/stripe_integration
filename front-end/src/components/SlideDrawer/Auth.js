@@ -56,11 +56,11 @@ class Auth extends Component{
                            <Link className="navbar_links" to="/">
                             Home
                            </Link>
-                           <Link className="navbar_links" to="/">
+                           <Link className="navbar_links" to="/About">
                             About
                            </Link>
-                           <Link className="navbar_links" to="/">
-                            Contact us
+                           <Link className="navbar_links" to="/Methods">
+                            Methods
                            </Link>
                        </li>
                    </ul>

@@ -10,6 +10,7 @@ import About from './components/About/About'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Chemex from './components/Methods/Chemex';
 import Methods from './components/Methods/Methods'
+import AeroPress from './components/Methods/AeroPress'
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
             <Route export path="/About" component={About}></Route>
             <Route export path="/Chemex" component={Chemex}></Route>
             <Route export path="/Methods" component={Methods}></Route>
+            <Route export path="/AeroPress" component={AeroPress}></Route>
           </div>
         </div>
      </Router>

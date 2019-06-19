@@ -8,7 +8,7 @@ class Auth extends Component{
         localStorage.removeItem('usertoken')
         this.props.history.push(`/`)
     }
-
+    
 
     render(){
        const loginRegLink = (

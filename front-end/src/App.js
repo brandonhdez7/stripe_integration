@@ -11,6 +11,12 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Chemex from './components/Methods/Chemex';
 import Methods from './components/Methods/Methods'
 import AeroPress from './components/Methods/AeroPress'
+import V60 from './components/Methods/V60'
+import FrenchPress from './components/Methods/FrenchPress'
+import Turkish from './components/Methods/Turkish'
+import Espresso from './components/Methods/Espresso'
+import MokaPot from './components/Methods/MokaPot'
+import ColdBrew from './components/Methods/ColdBrew'
 
 class App extends Component {
   render() {
@@ -28,6 +34,12 @@ class App extends Component {
             <Route export path="/Chemex" component={Chemex}></Route>
             <Route export path="/Methods" component={Methods}></Route>
             <Route export path="/AeroPress" component={AeroPress}></Route>
+            <Route export path="/V60" component={V60}></Route>
+            <Route export path="/FrenchPress" component={FrenchPress}></Route>
+            <Route export path="/Turkish" component={Turkish}></Route>
+            <Route export path="/Espresso" component={Espresso}></Route>
+            <Route export path="/MokaPot" component={MokaPot}></Route>
+            <Route export path="/ColdBrew" component={ColdBrew}></Route>
           </div>
         </div>
      </Router>

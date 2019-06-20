@@ -450,84 +450,14 @@ ul .navbar-nav{
   }
 
 
-/* register game */
-.registerImage{
-  width: 100px;
-    padding: 0px 0px 50px 0px;
-}
-.registerLink{
-  padding-bottom: 30px;
-}
+  /* register game */
+  .registerImage{
+    width: 100px;
+      padding: 0px 0px 50px 0px;
+  }
+  .registerLink{
+    padding-bottom: 30px;
+  }
 
 
-}
-
-
-
-
-
-
-
-
-
-
-.headline{
-	display: none !important;
-}
-
-.home-section{
-	padding: 0px !important;
-}
-
-.arrow-down{
-	display: none !important;
-}
-.col-md-offset-1 p{
-	display: none !important;
-}
-
-.home-slider{
-	margin-top: 20px !important;
-}
-
-#description{ display: none !important;
-}
-
-#features{
-	display: none !important;
-}
-
-#builder-row-564b3822ee9d9{
-	display: none !important;
-}
-
-#builder-row-5693a36d7bb85{
-	display: none !important;
-} 
-
-#pricing{
-	display: none !important;
-}
-
-footer .container{
-	display: none !important;
-}
-
-footer{
-	padding-top: 0px !important;
-}
-
-
-
-#builder-row-564b6e749ea83{
-	background-color: #3db5e6 !important;	
-}
-
-#builder-row-5693b0363c88b{
-	display: none !important;
-}
-
-
-#builder-column-564b7338c3b70{
-	display: none !important;
 }

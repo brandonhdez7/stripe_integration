@@ -45,15 +45,15 @@ class Store extends Component{
                                 <img src="./Images/frenchpress2.png" />
                                 <p>Coffee Maker</p>
                                 <p>FrenchPress</p>
-                                <Link className="method_link" to="/Chemex">Brew FrenchPress</Link>
+                                <Link className="method_link" to="/FrenchPress">Brew FrenchPress</Link>
                             </div>
                         </div>
                         <div >
                             <div className="store_box">
                                 <img src="./Images/turkish.png" />
                                 <p>Coffee Maker</p>
-                                <p>Turkish Coffee</p>
-                                <Link className="method_link" to="/Chemex">Brew Turkish Coffee</Link>
+                                <p>Moka Pot</p>
+                                <Link className="method_link" to="/MokaPot">Brew Moka Pot</Link>
                             </div>
                         </div>
                         <div>
@@ -61,7 +61,7 @@ class Store extends Component{
                                 <img src="./Images/v602.png" />
                                 <p>Coffee Maker</p>
                                 <p>v60</p>
-                                <Link className="method_link" to="/Chemex">Brew v60</Link>
+                                <Link className="method_link" to="/V60">Brew v60</Link>
                             </div>
                         </div>
                         <div>
@@ -69,14 +69,14 @@ class Store extends Component{
                                 <img src="./Images/espresso2.png" />
                                 <p>Coffee Maker</p>
                                 <p>Espresso</p>
-                                <Link className="method_link" to="/Chemex">Brew Espresso</Link>
+                                <Link className="method_link" to="/Espresso">Brew Espresso</Link>
                             </div>
                         </div>
                     </Slider>
                     </Wrapper>
                     </div>
                     <div className="store_row2">
-                        <button>View All</button>
+                        <Link className="method_link" to="/Methods">View All</Link>
                     </div>
                 </div>
         )

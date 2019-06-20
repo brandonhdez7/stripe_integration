@@ -42,8 +42,29 @@ class About extends Component{
                         <div className="about_banner_right">
                             <h1>Get to know Black Bird</h1>
 
-                            <p>We aim to affect whole communities for positive change,
-                            and pour redeeming goodness into every cup.</p>
+                            <p>Lorem Ipsum is a multidisciplinary firm specializing 
+                                in the planning, design, and production of experiences. 
+                                Our work includes museums, exhibits, immersive shows, 
+                                visitor attractions, as well as all types of filmed and interactive media.</p>
+
+                            <p>Founded in 2000, the company is headquartered in 
+                                New York, with offices in London and Moscow. 
+                                Our global team of over forty professionals 
+                                includes writers, filmmakers, designers, architects,
+                                 technologists, and researchers.</p> 
+                        </div>
+                    </div>
+                    <div className="team">
+                        <h1>Meet The Team</h1>
+                        <div className="members">
+                            <div className="teamMember">
+                            </div>
+                            <div className="teamMember">
+                            </div>
+                            <div className="teamMember">
+                            </div>
+                            <div className="teamMember">
+                            </div>
                         </div>
                     </div>
                     <div className="about_description">

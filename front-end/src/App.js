@@ -17,6 +17,7 @@ import Turkish from './components/Methods/Turkish'
 import Espresso from './components/Methods/Espresso'
 import MokaPot from './components/Methods/MokaPot'
 import ColdBrew from './components/Methods/ColdBrew'
+import ChemexTimer from './components/Methods/ChemexTimer'
 
 class App extends Component {
   render() {
@@ -40,6 +41,7 @@ class App extends Component {
             <Route export path="/Espresso" component={Espresso}></Route>
             <Route export path="/MokaPot" component={MokaPot}></Route>
             <Route export path="/ColdBrew" component={ColdBrew}></Route>
+            <Route export path="/ChemexTimer" component={ChemexTimer}></Route>
           </div>
         </div>
      </Router>

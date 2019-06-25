@@ -107,21 +107,8 @@ background: linear-gradient(0deg, rgba(0,46,74,1) 0%, rgba(120,204,255,1) 100%);
   /* home page */
 
   .homePage{
-    height: 100vh;
+    height: max-content;
     width: 100%;
-    background: rgb(215,215,215);
-background: linear-gradient(0deg, rgba(215,215,215,1) 0%, rgba(0,0,0,1) 100%);
-  }
-  .homeMain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    color: white;
-  }
-  .homeMain .homeImg{
-    width: 100%;
-    height: 325px;
   }
 
 

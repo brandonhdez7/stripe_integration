@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Link, withRouter} from 'react-router-dom'
 import ProfileName from './ProfileName'
+import './SlideDrawer.css'
 
 class Auth extends Component{
     logOut(e){
@@ -61,6 +62,9 @@ class Auth extends Component{
                            </Link>
                            <Link className="navbar_links" to="/Methods">
                             Methods
+                           </Link>
+                           <Link className="navbar_links" to="/GoogleMaps">
+                            Shops
                            </Link>
                        </li>
                    </ul>

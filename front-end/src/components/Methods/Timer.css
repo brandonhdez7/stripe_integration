@@ -1,8 +1,54 @@
 .timerPage{
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #454545;
+    height: 100vh;
+}
+.backMethods{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+    text-decoration: none; 
+    padding: 10px;
+}
+.timerPage .container{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: #454545;
     height: 100vh;
+}
+.timerPage h2{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+.current-timer{
+    font-size: 60px;
+    color: white;
+}
+.timer-container button{
+    outline: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    background: rgb(26,15,75);
+    background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(66,66,66,1) 0%);
+    color: white;
+}
+.timer-container button:hover{
+    background: white;
+    color: #454545;
+}
+
+.timer-captures{
+    color: white;
+    font-size: 20px;
 }

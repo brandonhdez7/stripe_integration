@@ -3,7 +3,7 @@ const db = {}
 const sequelize = new Sequelize('travel_website', 'travel', 'travel',{
     host: 'localhost',
     dialect: 'mysql',
-    operatorsAliases: false,
+    // operatorsAliases: false,
     
     pool: {
         max: 5,

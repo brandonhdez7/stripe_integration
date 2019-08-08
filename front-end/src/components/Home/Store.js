@@ -8,7 +8,71 @@ const Wrapper = styled.div`
 `;
 
 class Store extends Component{
+    
+    
     render(){
+
+        var settings = {
+            centerMode: true,
+            centerPadding: '40px',
+            arrows: true,
+            speed: 500,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            dots: true,
+            responsive: [
+              {
+                breakpoint: 1280,
+                settings: { 
+                    centerMode: true,
+                    centerPadding: '20px',
+                    arrows: true,
+                    speed: 500,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    dots: true,
+                 }
+              },
+              {
+                breakpoint: 768,
+                settings: { 
+                    centerMode: true,
+                    centerPadding: '20px',
+                    arrows: true,
+                    speed: 500,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    dots: true,
+                 }
+              },
+              {
+                breakpoint: 480,
+                settings: { 
+                    centerMode: true,
+                    centerPadding: '20px',
+                    arrows: true,
+                    speed: 500,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    dots: true,
+                 }
+              },
+            ]
+          }; 
+
+
         return(
             <div className="store_description">
                 <div className="store_row1">
@@ -20,19 +84,8 @@ class Store extends Component{
                     with their brewing process rather than hitting a 
                     ‘brew’ button on a machine.</p>
                 <Wrapper>
-                    <Slider
-                        centerMode={true}
-                        centerPadding={'40px'}
-                        arrows={true}
-                        speed={500}
-                        slidesToShow={3}
-                        slidesToScroll={1}
-                        infinite={true}
-                        autoplay={true}
-                        autoplaySpeed={5000}
-                        dots={true}
-                    >
-                        <div> 
+                    <Slider {...settings}>
+                        <div > 
                             <div className="store_box">
                                 <img src="./Images/chemex2.png" />
                                 <p>Coffee Maker</p>

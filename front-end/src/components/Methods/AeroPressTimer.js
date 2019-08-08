@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 import './Timer.css'
 
 
-class ChemexTimer extends Component{
+class AeroPressTimer extends Component{
    constructor(props) {
         super(props);
         this.state = {
@@ -126,4 +126,4 @@ class ChemexTimer extends Component{
     }
 }
 
-export default ChemexTimer; 
+export default AeroPressTimer; 

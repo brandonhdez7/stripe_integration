@@ -80,9 +80,8 @@ class Chemex extends Component{
                         </div>
                     </div>
                     <div className="methodButton">
-                       
-                            <h1>Start Brewing</h1>
-                            <button>Brew Chemex</button>
+                        <h1>Start Brewing</h1>
+                        <button><Link className="method_link" to="/ChemexTimer">Brew Chemex</Link></button>
                     </div>
                     
                 </div>

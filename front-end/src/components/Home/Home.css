@@ -119,7 +119,12 @@
     background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(66,66,66,1) 0%);
     color: white;
 }
-
+.homeSearchForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .homeSearch {
     text-align: center;
     padding-bottom: 50px;
@@ -145,6 +150,7 @@
     transition: all 0.3s;
 
 }
+
 .homeSearch input {
     background-color: transparent;
     border: 2px solid #4A4A4A;
@@ -240,20 +246,52 @@ background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(252,80,80,1) 0%, r
 }
 
 
-@media screen and (max-width: 768px) {
-    .banner_left h3, .banner_left h5, .banner_left p{
-        padding: 20px 20px;
-        font-size: 15px;
-        letter-spacing: 5px
+
+/* desktop */
+
+@media screen and (min-width: 1280px) {
+    .homeMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
+
+    .banner_left{
+        width: 30%;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 100px;
+        align-items: center;
+    }
+
+    /* .banner_left h3, .banner_left h5, .banner_left p{
+        padding: 20px 15px;
+        font-size: 25px;
+        letter-spacing: 5px;
+    } */
+
 }
 
 
 
 
+/* tablets */
+
+@media screen and (max-width: 768px) {
 
 
-@media (max-width: 480px) {
+
+    .banner_left h3, .banner_left h5, .banner_left p{
+        padding: 10px 20px;
+        width: 80%;
+        font-size: 15px;
+        letter-spacing: 5px
+    }
+
     .homeMain{
         display: flex;
         flex-direction: column;
@@ -278,11 +316,6 @@ background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(252,80,80,1) 0%, r
         align-items: center;
         height: max-content;
     }
-    .banner_left h3, .banner_left h5, .banner_left p{
-        padding: 10px 10px;
-        font-size: 15px;
-        letter-spacing: 5px;
-    } 
     
     .banner_right{
         width: 100%;
@@ -481,7 +514,261 @@ background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(252,80,80,1) 0%, r
         align-items: center;
         height: 100%;
         background: rgb(26,15,75);
-    background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(252,80,80,1) 0%, rgba(252,252,252,1) 0%);
+        background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(252,80,80,1) 0%, rgba(252,252,252,1) 0%);
+    }
+    
+    .description_right h2{
+        width: 80%;
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-style: italic;
+        text-align: center;
+    }
+    
+    .description_right p{
+        width: 70%;
+        letter-spacing: 5px;
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .homeMain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        height: max-content;
+    }
+    
+    .banner_left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: max-content;
+    }
+    .banner_left h3, .banner_left h5, .banner_left p{
+        padding: 10px 10px;
+        font-size: 15px;
+        letter-spacing: 5px;
+    } 
+    
+    .banner_right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: max-content;
+        padding-bottom: 0px;
+    }
+
+    .banner_right img{
+        width: 90%;
+    }
+    
+    .store_description{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(26,15,75);
+        background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(252,80,80,1) 0%, rgba(252,252,252,1) 0%);
+    }
+    .store_row1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .store_row1 h2{
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    .store_row1 p{
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+    
+    .store_box{
+        width: 90%;
+        height: 300px;
+        margin-left: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(26,15,75);
+        background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(247,247,247,1) 0%);
+    }
+    
+    .store_box img{
+        width: 35%;
+    }
+    
+    .method_link{
+        padding: 10px 10px;
+        outline: none;
+        text-decoration: none;
+        cursor: pointer;
+        letter-spacing: 3px;
+        font-size: 15px;
+        font-weight: 600;
+        background: rgb(26,15,75);
+        background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(66,66,66,1) 0%);
+        color: white;
+    }
+    
+    .store_box p{
+        text-align: center;
+        margin: 5px;
+        font-style: italic;
+    }
+    
+    .store_row2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+    
+    .store_row2 button{
+        padding: 10px 30px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 600;
+        background: rgb(26,15,75);
+        background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(66,66,66,1) 0%);
+        color: white;
+    }
+    
+    .homeSearch {
+        text-align: center;
+        padding-bottom: 50px;
+        width: 100%;
+        height: max-content;
+        display: block;
+        letter-spacing: 4px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .homeSearch h2{
+        width: 60%;
+
+    }
+    .homeSearch .label-text1 {
+        cursor: text;
+        width: 25px;   
+        -moz-transform: translateX(-160px)translateY(-35px);
+        -ms-transform: translateX(-160px)translateY(-35px);
+        -webkit-transform: translateX(-160px)translateY(-35px);
+        transform: translateX(-160px)translateY(-35px);
+        transition: all 0.3s;
+    
+    }
+    .homeSearch input {
+        background-color: transparent;
+        border: 2px solid #4A4A4A;
+        color: black;
+        font-size: 30px;
+        letter-spacing: -1px;
+        outline: 0;
+        padding: 5px 20px;
+        text-align: center;
+        transition: 1s ease-in-out;
+        width: 350px;
+    }
+    .homeSearch input:focus {
+        max-width: 100%;
+        width: 400px;
+        border: 2px solid black;
+        
+    }
+    .homeSearch input:focus + .label-text1 {
+        color: black;
+        width: 25px;
+        -moz-transform: translateX(-180px)translateY(-35px);;
+        -ms-transform: translateX(-180px)translateY(-35px);;
+        -webkit-transform: translateX(-180px)translateY(-35px);;
+        transform: translateX(-180px)translateY(-35px); ;
+        transition: all 1s;
+    }
+    .homeSearch input:valid + .label-text1 {
+        width: 25px;
+        -moz-transform: translateX(-150px)translateY(-30px);;
+        -ms-transform: translateX(-150px)translateY(-30px);;
+        -webkit-transform: translateX(-150px)translateY(-30px);;
+        transform: translateX(-150px)translateY(-30px);;
+        transition: all 1s;
+    }
+    
+    .description_home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: max-content;
+    }
+    
+    .description_left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(26,15,75);
+        background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(62,62,62,1) 0%);
+        height: 100%;
+    }
+    
+    .description_left h1{
+        font-size: 40px;
+        margin: 20px 0px 0px 0px;
+        font-weight: bold;
+        color: #fcfcfc;
+        font-weight: 900
+    }
+    .description_left p{
+        font-size: 15px;
+        margin: 0px 0px 40px 0px;
+        color: #fcfcfc;
+    }
+    
+    .description_right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background: rgb(26,15,75);
+        background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(252,80,80,1) 0%, rgba(252,252,252,1) 0%);
     }
     
     .description_right h2{

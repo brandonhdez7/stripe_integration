@@ -60,7 +60,7 @@ class Register extends Component{
                 <SlideDrawer show={this.state.slideDrawerOpen}/> 
                 {backdrop}
                 <div className="linkHomepage">
-                    <Link to="/" className="backHomepage"><i class="fas fa-arrow-left"></i> Go Back To Homepage</Link>
+                    <Link to="/" className="backHomepage"><i class="fa fa-arrow-left"></i> Go Back To Homepage</Link>
                 </div>
                 <div className="loginForm">
                 <img className="registerImage" src="./Images/modern-flat-digital-wallet-concept-vector-9283516.png" alt="" />

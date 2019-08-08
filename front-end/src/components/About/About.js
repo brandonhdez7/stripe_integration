@@ -54,7 +54,7 @@ class About extends Component{
                                  technologists, and researchers.</p> 
                         </div>
                     </div>
-                    <div className="team">
+                    {/* <div className="team">
                         <h1>Meet The Team</h1>
                         <div className="members">
                             <div className="teamMember">
@@ -66,12 +66,48 @@ class About extends Component{
                             <div className="teamMember">
                             </div>
                         </div>
+                    </div> */}
+                    <div className="contact_form">
+                        <div>
+                            <form>
+                                <h1>Reach Out To Us</h1>
+                                <label>
+                                    Name:
+                                    <input type="text" name="name" />
+                                </label>
+                                <label>
+                                    Email:
+                                    <input type="email" name="email" />
+                                </label>
+                                <label>
+                                    Message:
+                                    <input type="textarea" name="message" />
+                                </label>
+                                <input className="contact_button" type="submit" value="Submit" />
+                            </form>
+                        </div>
                     </div>
+
+
                     <div className="about_description">
                         <div className="about_description_left">
-                            <h1>8737y477y3</h1>
-                            <h1>hehu3heh323e32r32r</h1>
-                            <h1>he37h2932362632</h1>
+                            <div className="icons_locations">
+                                <div className="about_icons">
+                                    <i class="fa fa-phone"></i>
+                                    <i class="fa fa-envelope"></i>
+                                    <i class="fa fa-map-pin"></i>
+                                </div>
+                                <div className="about_locations">
+                                    <h4>(678)-773-7241</h4>
+                                    <h4>blackbird@gmail.com</h4>
+                                    <h4>Atlanta, GA</h4>
+                                </div>
+                            </div>
+                            <p>We believe coffee is more than just careful farming, 
+                                intentional processing and expert roasting. Coffee 
+                                is an opportunity to do good, and doing good means 
+                                we get to help people and champion dignity.
+                            </p>
                         </div>
                         <div className="about_description_right">
                             <img src="/Images/chat.png" />
